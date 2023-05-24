@@ -56,6 +56,9 @@ public class FlipClip {
                 socket = serverSocket.accept();
                 DisconnectServer.hostName=socket.getInetAddress().getHostName();
                 if (socket.isConnected()){
+                    if (connected != null){
+                        connected.dispose();
+                    }
                     BiDirectional.createFrame.dispose();
                     connected = new DisconnectServer("server");
                     connected.setVisible(true);

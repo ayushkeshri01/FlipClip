@@ -141,9 +141,9 @@ public class Create extends JFrame {
             }
             FlipClip.serverSocket = null; // Set the server socket to null
         }
+        dispose();
         BiDirectional biDirectionalFrame = new BiDirectional();
         biDirectionalFrame.setVisible(true);
-        dispose();
 
     }
 
@@ -175,6 +175,7 @@ public class Create extends JFrame {
             }
         } catch (Exception e) {
             // ignore and fall through to return loopback address
+            e.printStackTrace();
         }
         return (InetAddress.getLoopbackAddress()).toString().replace("/", "");
     }
