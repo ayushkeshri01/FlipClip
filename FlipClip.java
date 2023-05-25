@@ -79,15 +79,15 @@ public class FlipClip {
     }
     
 
-    public static void closeServer() {
-        try {
-            if (serverSocket != null && !serverSocket.isClosed()) {
-                serverSocket.close();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+    // public static void closeServer() {
+    //     try {
+    //         if (serverSocket != null && !serverSocket.isClosed()) {
+    //             serverSocket.close();
+    //         }
+    //     } catch (IOException e) {
+    //         e.printStackTrace();
+    //     }
+    // }
     
 
     public static boolean ableToConnectWithIP(String ip) {
