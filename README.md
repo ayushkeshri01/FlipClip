@@ -15,7 +15,7 @@ Meanwhile, the compiled output files (.class) will be generated in the `bin` fol
 
 This code can be executed by using the Menu.java file in the src folder. A GUI window will open showing two options.
 
-- `Create' : Where we would be shown our IP which the remote side has to enter.
+- `Create` : Where we would be shown our IP which the remote side has to enter.
 - `Join` : Where we have to enter the IP of the other computer.
 
 Once connected the clipboards will be synced once anything is copied in either of the two computers.
