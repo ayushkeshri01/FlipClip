@@ -1,4 +1,4 @@
-package FlipClip;
+// package FlipClip;
 
 
 public class clipboardData {

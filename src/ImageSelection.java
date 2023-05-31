@@ -1,4 +1,4 @@
-package FlipClip;
+// package FlipClip;
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.io.*;

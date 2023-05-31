@@ -1,5 +1,4 @@
-package FlipClip;
-
+// package FlipClip;
 import javax.swing.*;
 import java.awt.*;
 
