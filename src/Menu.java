@@ -26,8 +26,8 @@ public class Menu extends JFrame {
         modeLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 20, 0));
         modeLabel.setFont(new Font("Serif", Font.PLAIN, 30));
 
-        JButton bidirectionalButton = createButton("Bidirectional", "FlipClip/src/BiDir.png");
-        JButton multiServerButton = createButton("MultiServer", "FlipClip/src/Multi.png");
+        JButton bidirectionalButton = createButton("Bidirectional", "FlipClip/images/BiDir.png");
+        JButton multiServerButton = createButton("MultiServer", "FlipClip/images/Multi.png");
         
         bidirectionalButton.addActionListener(e -> openBidirectionalFrame());
         multiServerButton.addActionListener(e -> openMultiServerFrame());

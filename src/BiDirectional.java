@@ -26,8 +26,8 @@ public class BiDirectional extends JFrame {
         modeLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 20, 0));
         modeLabel.setFont(new Font("Serif", Font.PLAIN, 30));
 
-        JButton createButton = createButton("Create", "FlipClip/src/create.png");
-        JButton JoinButton = createButton("Join", "FlipClip/src/join.png");
+        JButton createButton = createButton("Create", "FlipClip/images/create.png");
+        JButton JoinButton = createButton("Join", "FlipClip/images/join.png");
         
         createButton.addActionListener(e -> openCreateFrame());
         JoinButton.addActionListener(e -> openJoinFrame());

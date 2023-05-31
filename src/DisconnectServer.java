@@ -25,7 +25,7 @@ public class DisconnectServer extends JFrame {
         setHostName(hostName);
 
         // Create the disconnect button
-        disconnectbutton = Menu.createButton("Disconnect", "FlipClip/src/disconnect.png");
+        disconnectbutton = Menu.createButton("Disconnect", "FlipClip/images/disconnect.png");
         disconnectbutton.addActionListener(e -> {
             if (check.equals("server")) {
                 FlipClip.Serverdisconnect();

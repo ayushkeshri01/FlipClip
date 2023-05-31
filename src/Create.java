@@ -78,7 +78,7 @@ public class Create extends JFrame {
 
         ipPanel.add(ipTextField);
 
-        ImageIcon copyIcon = new ImageIcon("FlipClip/src/copy.png");
+        ImageIcon copyIcon = new ImageIcon("FlipClip/images/copy.png");
         copyIcon.setImage(copyIcon.getImage().getScaledInstance(20, 20, Image.SCALE_DEFAULT));
         JButton button = new JButton("", copyIcon);
         button.setPreferredSize(new Dimension(30, 50));
