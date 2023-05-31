@@ -97,12 +97,10 @@ public class BiDirectional extends JFrame {
         joinFrame.setVisible(true);
         dispose();
     }
-
     // private void goBack() {
     //     // Code to go back to the previous frame goes here
     //     Menu menuFrame = new Menu();
     //     menuFrame.setVisible(true);
     //     dispose();
-
     // }
 }
